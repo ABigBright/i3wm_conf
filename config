@@ -203,7 +203,7 @@ for_window [class=".*"] border pixel 0
 smart_gaps on
 smart_borders on
 exec_always i3-msg gaps inner all set 6
-exec_always i3-msg gaps outer current plus 1
-exec_always i3-msg gaps horizontal all plus 3
-exec_always i3-msg gaps vertical all plus 3
-exec_always i3-msg gaps outer all toggle 3
+exec_always i3-msg gaps outer current set 1
+exec_always i3-msg gaps horizontal all set 3
+exec_always i3-msg gaps vertical all set 3
+exec_always i3-msg gaps outer all set 2
