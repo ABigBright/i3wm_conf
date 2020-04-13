@@ -12,7 +12,7 @@
 # start applications along with i3wm
 exec_always --no-startup-id compton
 # exec_always --no-startup-id polybar example
-exec_always --no-startup-id feh --bg-scale ~/win/e/pic/57ba63d99825a.jpg
+exec_always --no-startup-id feh --bg-scale ~/work/pic/star.jpg
 exec_always --no-startup-id albert
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
@@ -201,6 +201,9 @@ bindsym XF86MonBrightnessDown  exec ybacklight -dec 10 # decrease screen brightn
 
 # open ranger
 bindsym $mod+Shift+f exec alacritty -e ranger
+
+# i3lock 
+bindsym $mod+m exec i3lock
 
 # for i3-gaps config, disable windows title bar
 # You can also use any non-zero value if you'd like to have a border
