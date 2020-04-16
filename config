@@ -222,8 +222,8 @@ smart_borders no_gaps
 # Hide edge borders only if there is one window with no gaps
 hide_edge_borders smart_no_gaps
 
-exec_always i3-msg gaps inner all set 3
+exec_always i3-msg gaps outer all set 5
+exec_always i3-msg gaps inner all set 6
 exec_always i3-msg gaps outer current set 1
 exec_always i3-msg gaps horizontal all set 3
 exec_always i3-msg gaps vertical all set 3
-exec_always i3-msg gaps outer all set 2
