@@ -227,3 +227,8 @@ exec_always i3-msg gaps inner all set 3
 # exec_always i3-msg gaps outer current set 1
 exec_always i3-msg gaps horizontal all set 3
 exec_always i3-msg gaps vertical all set 3
+
+assign [class="Chromium"] $ws2
+assign [class="Vmplayer"] $ws3
+assign [class="pcmanfm-qt"] $ws4
+
