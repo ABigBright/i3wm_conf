@@ -232,3 +232,9 @@ assign [class="Chromium"] $ws2
 assign [class="Vmplayer"] $ws3
 assign [class="pcmanfm-qt"] $ws4
 
+# diff in diff computor, need reconfig
+workspace 1 output HDMI-1
+workspace 2 output DP-1
+
+# set primary display
+exec_always --no-startup-id xrandr --output HDMI-1 --auto --primary --left-of DP-1
